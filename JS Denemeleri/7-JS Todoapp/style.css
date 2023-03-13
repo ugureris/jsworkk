@@ -1,0 +1,60 @@
+body {
+  background-color: #cb6363;
+}
+
+.container {
+  width: 100½;
+  max-width: 450px;
+  margin: 50px auto;
+}
+
+.container h1 {
+  font-size: 50px;
+  padding-left: 60px;
+  color: white;
+  margin-left: 30px;
+}
+input {
+  text-align: center;
+  height: 30px;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.2);
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 30px;
+  color: wheat;
+}
+.container ul li {
+  list-style-type: none;
+  font-size: 20px;
+  border: 1px solid rgba(220, 220, 220, 0.075);
+  background-color: #d87e7e;
+  padding: 10px;
+  color: white;
+}
+
+.container ul li i {
+  float: right;
+  cursor: pointer;
+}
+
+::placeholder {
+  color: white;
+  font-size: 16px;
+  float: left;
+  line-height: 20px;
+  display: block;
+  padding: 5px;
+}
+label {
+  margin-top: 30px;
+  text-align: center;
+  display: block;
+  margin-bottom: 30px;
+  color: white;
+  font-size: 20px;
+}
+
+.delete {
+  display: none;
+}
